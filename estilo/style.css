@@ -101,7 +101,6 @@ form label {
 
 section {
     margin: auto;
-    background-color: red;
     width: 80vw;
     height: 500px;
     padding: 30px;
@@ -117,4 +116,23 @@ section h2 {
     width: 100%;
     background-color: white;
     columns: 4;
+}
+
+#imgsdivs1 {
+    display: inline-block;
+}
+
+#imgsdivs2 {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.divsimgs h2 {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.divsimgs p {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
