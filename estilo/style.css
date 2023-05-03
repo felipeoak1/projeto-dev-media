@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px;
+    color: red;
+    font-size: 1.3em;
+}
+
+nav {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: black url("../imagens/london.jpg") no-repeat center bottom / cover scroll;
+}
+
+ul#menu {
+    background-color: black;
+}
+
+ul#menu li{
+    text-align: center;
+    display: inline-block;
+    color:white;
+    padding: 10px;
+    width: calc(100%/3);
+    cursor: pointer;
+}
+
+ul#menu li:hover {
+    background-color: red;
+    color: white;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    width: 65%;
+    min-height: 240px;
+    transform: translate(-50%, -50%);   
+}
+
+form h1 {
+    font-weight: normal;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+form p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#pto {
+    display: inline-block;
+    margin-left: 44%;
+    text-align: right;
+}
+
+form input {
+    width: 48%;
+    padding: 10px;
+}
+
+form input[type=submit] {
+    color: white;
+    background-color: gray;
+    width: 20%;
+    border: none;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+form label {
+    display: none;
+}
+
+#listamenu {
+    padding-bottom: 20px;
+}
+
+#divinput1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+#divinput2 {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+section {
+    margin: auto;
+    background-color: red;
+    width: 80vw;
+    height: 500px;
+    padding: 30px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+#imagens {
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    background-color: white;
+    columns: 4;
+}
