@@ -109,21 +109,31 @@ section h2 {
     margin-bottom: 20px;
 }
 
-#imagens {
-    position: absolute;
-    list-style-type: none;
+div#section2 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 30px;
+}
+
+#solitaria {
+    display: inline-block;
+    width: 400px;
+}
+
+#solitaria img {
     width: 100%;
-    background-color: white;
-    columns: 4;
 }
 
-#imgsdivs1 {
-    display: inline-block;
+#imagens {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    
 }
 
-#imgsdivs2 {
-    display: inline-block;
-    margin-left: 28px;
+#imagens img {
+    width: 250px;
 }
 
 .divsimgs h2 {
