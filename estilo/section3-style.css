@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Raleway:ital,wght@0,400;0,500;1,200&display=swap');
+
+#s3 #s3-title {
+    margin-bottom: 10px;
+    flex-basis: 100%;
+}
+
+#s3 #s3-p {
+    flex-basis: 100%;
+}
+
+section#s3 article {
+    height: calc(100% - 68px);
+}
+
+article#img-esquerda {
+    display: flex;
+    flex-flow: column nowrap;
+    
+    background-color: rgb(255, 255, 255);
+    margin-right: 28px;
+    width: 46.2%;
+}
+
+article#img-direita {
+    display: flex;
+    flex-flow: column nowrap;
+    
+    background-color: rgb(255, 255, 255);
+    margin-right: 28px;
+    width: 46.5%;
+}
+
+#background-esquerda, #background-direita {
+    height: 60%;
+    background: black url("/imagens/ocean.jpg") no-repeat center center / cover scroll;
+}
+
+#background-direita {
+    height: 60%;
+    background: black url("/imagens/mountains.jpg") no-repeat center center / cover scroll;
+}
+
+.s3-text {
+    margin: 0px 0px 20px 20px;
+    flex-basis: 0%;
+}
+
+#s3-h3text1, #s3-h3text2 {
+    margin: 20px;
+}
+
+#s3-buyp1, #s3-buyp2 {
+    text-indent: 10px;
+    margin-top: 20px;
+
+}

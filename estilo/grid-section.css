@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Raleway:ital,wght@0,400;0,500;1,200&display=swap');
+
+#s0 {
+    grid-area: header;
+
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#s1 {
+    grid-area:section1;
+    
+    background: red url("../imagens/london.jpg") no-repeat center center/ cover scroll;
+    height: 95vh;
+}
+
+#s2 {
+    display: flex;
+    flex-flow: row wrap;   
+    grid-area: section2; 
+}
+
+#s3 {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: start;
+
+    height: 70vh;
+    min-height: 600px;
+    grid-area: section3; 
+}
+
+#s4 {
+    display: flex;
+    flex-flow: column nowrap;
+    grid-area: section4;  
+    
+    width: 95.8%;
+}
+
+#s5 {
+    background-color: blanchedalmond;
+    grid-area: footer;  
+}
