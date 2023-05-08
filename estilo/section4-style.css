@@ -10,6 +10,8 @@
     color: white;
     padding: 10px;
     height: 30vh;
+    min-height: 250px;
+    box-shadow: -5px 5px 10px 5px #00000024;
 }
 
 #s4-p, #s4-h2, #s4-form {
@@ -32,11 +34,13 @@
 }
 
 #s4-form input[type=submit] {
-    background-color: rgb(230, 131, 123);
-    color: white;
     font-size: 1em;
+    color: white;
+    
+    background-color: rgb(230, 131, 123);
     margin-top: 20px;
     padding: 10px;
     width: 15%;
     border: none;
+    cursor: pointer;
 }

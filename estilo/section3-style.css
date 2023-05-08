@@ -21,6 +21,7 @@ article#img-esquerda {
     background-color: rgb(255, 255, 255);
     margin-right: 28px;
     width: 46.2%;
+    box-shadow: -5px 5px 10px 5px #00000024;
 }
 
 article#img-direita {
@@ -30,6 +31,7 @@ article#img-direita {
     background-color: rgb(255, 255, 255);
     margin-right: 28px;
     width: 46.5%;
+    box-shadow: 5px 5px 10px 5px #00000024;
 }
 
 #background-esquerda, #background-direita {

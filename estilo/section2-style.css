@@ -9,6 +9,7 @@ section#s2 h2, p {
 section#s2 img#imagem-solitaria {
     align-self: center;
     width: 46.2%;
+    box-shadow: -5px 5px 10px 5px #00000024;
 }
 
 section#s2 ul#lista-body {
@@ -22,4 +23,5 @@ section#s2 ul#lista-body {
 
 section#s2 ul#lista-body img {
     width: 45%;
+    box-shadow: 5px 5px 10px 5px #00000024;
 }
