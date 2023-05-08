@@ -14,22 +14,20 @@ section#s3 article {
     height: calc(100% - 68px);
 }
 
-article#img-esquerda {
+article.s3-articles {
     display: flex;
     flex-flow: column nowrap;
-    
+
     background-color: rgb(255, 255, 255);
     margin-right: 28px;
+}
+
+article#img-esquerda {
     width: 46.2%;
     box-shadow: -5px 5px 10px 5px #00000024;
 }
 
 article#img-direita {
-    display: flex;
-    flex-flow: column nowrap;
-    
-    background-color: rgb(255, 255, 255);
-    margin-right: 28px;
     width: 46.5%;
     box-shadow: 5px 5px 10px 5px #00000024;
 }
@@ -40,7 +38,6 @@ article#img-direita {
 }
 
 #background-direita {
-    height: 60%;
     background: black url("/imagens/mountains.jpg") no-repeat center center / cover scroll;
 }
 

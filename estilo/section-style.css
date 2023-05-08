@@ -21,9 +21,7 @@ section#s1 nav {
 section nav #lista-header {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
-
+    
     list-style-type: none;
 }
 
@@ -36,4 +34,9 @@ section nav #lista-header li {
     background-color: black;
     color: white;
     width: 100%;
+}
+
+section nav #lista-header li:hover {
+    background-color: rgb(219, 10, 10);
+    color: white;
 }

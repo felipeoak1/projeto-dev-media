@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Raleway:ital,wght@0,400;0,500;1,200&display=swap');
 
 section#s2 h2, p {
-    margin-bottom: 10px;
     flex-basis: 100%;
+    
+    margin-bottom: 10px;
 }
 
 section#s2 img#imagem-solitaria {
     align-self: center;
+
     width: 46.2%;
     box-shadow: -5px 5px 10px 5px #00000024;
 }

@@ -12,22 +12,23 @@
     <link rel="stylesheet" href="estilo/section3-style.css">
     <link rel="stylesheet" href="estilo/section4-style.css">
     <link rel="stylesheet" href="estilo/section5-style.css">
+    <link rel="stylesheet" href="estilo/media-queries.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     
     <main id="container-body">
         <header id="s0">
-            <p id="logo">LOGO</p>
+            <p id="logo"><span class="material-symbols-outlined"> location_on </span>LOGO</p>
             <p id="icone"><span class="material-symbols-outlined"> search </span></p>
         </header>
 
         <section id="s1">
             <nav>
                 <ul id="lista-header">
-                    <li>Flight</li>
-                    <li>Hotel</li>
-                    <li>Rental</li>
+                    <li><span class="material-symbols-outlined"> flight </span>Flight</li>
+                    <li><span class="material-symbols-outlined"> single_bed </span>Hotel</li>
+                    <li><span class="material-symbols-outlined"> local_taxi </span>Rental</li>
                 </ul>
 
                 <div id="form-header">
@@ -36,10 +37,8 @@
                         <form action="" method="GET">
                             <label for="ifrom">From</label>
                             <input type="text" name="from" id="ifrom" placeholder="Departing From" required>
-
                             <label for="ito">To</label>
                             <input type="text" name="to" id="ito" placeholder="Arriving at" required>
-
                             <input type="submit" value="Search and find dates">
                         </form>
                 </div>
@@ -52,6 +51,7 @@
             <img src="/imagens/cinqueterre.jpg" alt="" id="imagem-solitaria">
 
             <ul id="lista-body">
+
                 <img src="imagens/newyork.jpg" alt="" id="imagem-1">
                 <img src="imagens/sanfran.jpg" alt="" id="imagem-4">
                 <img src="imagens/pisa.jpg" alt="" id="imagem-3">
@@ -62,11 +62,9 @@
         <section id="s3">
             <h2 id="s3-title">Explore Nature</h2>
             <p id="s3-p">Travel with us and see nature at its finest.</p>
-            <article id="img-esquerda">
+            <article id="img-esquerda" class="s3-articles">
 
-                <div id="background-esquerda">
-
-                </div>
+                <div id="background-esquerda"></div>
                 
                 <h3 class="s3-text" id="s3-h3text1">West Coast, Norway</h3>
                 <p class="s3-text">Roundtrip from $79</p>
@@ -74,11 +72,9 @@
                 <p class="s3-text" id="s3-buyp1">Buy Tickets</p>
             </article>
 
-            <article id="img-direita">
+            <article id="img-direita" class="s3-articles">
 
-                <div id="background-direita">
-
-                </div>
+                <div id="background-direita"></div>
 
                 <h3 class="s3-text" id="s3-h3text2">Mountains, Austria</h3>
                 <p class="s3-text">One-way from $79</p>
@@ -106,23 +102,21 @@
                 <p id="s5-p">Let us book your next trip!</p>
 
                 <address>
-                    <p>Chicago, US</p>
-                    <p>Phone: +00 151515</p>
-                    <p>Email: mail@mail.com</p>
+                    <p><span class="material-symbols-outlined"> location_on </span>Chicago, US</p>
+                    <p><span class="material-symbols-outlined"> call </span>Phone: +00 151515</p>
+                    <p><span class="material-symbols-outlined"> mail </span>Email: mail@mail.com</p>
                 
                 </address>
                     
                 <form action="" method="POST" autocomplete="on" id="s5-form">
                     <label for="iname-s5">Name</label>
                     <input type="text" name="name-s5" id="iname-s5" placeholder="Name" required>
-
                     <label for="iemail-s5">Email</label>
                     <input type="text" name="email-s5" id="iemail-s5" placeholder="Email" required>
-
                     <label for="imessage-s5">Message</label>
                     <input type="text" name="message-s5" id="imessage-s5" placeholder="Message" required>
-
                     <input type="submit" value="SEND MESSAGE">
+
                 </form>
             </article>
         </section>

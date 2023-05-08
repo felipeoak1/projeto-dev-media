@@ -12,18 +12,20 @@
 #s1 {
     grid-area:section1;
     
-    background: red url("../imagens/london.jpg") no-repeat center center/ cover scroll;
+    background: rgb(7, 7, 7) url("../imagens/london.jpg") no-repeat center center/ cover scroll;
     height: 95vh;
 }
 
 #s2 {
+    grid-area: section2; 
+    
     display: flex;
     flex-flow: row wrap;   
-    grid-area: section2; 
 }
 
 #s3 {
     grid-area: section3; 
+    
     display: flex;
     flex-flow: row wrap;
     align-content: start;
@@ -33,9 +35,10 @@
 }
 
 #s4 {
+    grid-area: section4;  
+    
     display: flex;
     flex-flow: column nowrap;
-    grid-area: section4;  
     
     width: 95.8%;
 }
