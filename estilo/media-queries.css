@@ -1,6 +1,28 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Raleway:ital,wght@0,400;0,500;1,200&display=swap');
 
+@media screen and (max-width: 1366px) {
+    #s3 {
+        justify-content: space-evenly;
+    }
+
+    #s3-title, #s3-p {
+        flex-basis: 96.2%;
+    }
+
+    article.s3-articles {
+        margin: 0px;
+    }
+    
+    #img-direita {
+        margin-right: 18px;
+    }
+
+    #s4-article  {
+        margin-right: 36px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     section {
@@ -70,17 +92,144 @@
         width: 46.4%;
     }
 
+    #s4 {
+        width: 95.5%;
+        padding: 0px;
+        margin: 20px 15px;
+    }
+
     #s4 article {
-        width: 95.8%;
-        margin-right: 17px;
+        padding: 0px;
+        width: 100%;
     }
 
     #s5 {
-        margin-left: 17px;
+        margin-left: 15px;
     }
 
     footer {
         height: 30vh;
         width: 97vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    #s1 {
+        background: none;
+        height: 48vh;
+        padding: 0px;
+    }
+
+    section#s1 {
+        align-items: start;
+        justify-content: start;
+    }
+
+    section#s1 nav {
+        width: 96vw;
+        height: 100%;
+    }
+
+    #form-header form {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #form-header input[type=text] {
+        width: 90%;
+    }
+
+    input#ifrom {
+        margin-bottom: 10px;
+    }
+
+    #pfrom, #pto {
+        display: none;
+    }
+
+    div#form-header form label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #form-header input[type=submit] {
+        width: 50%;
+    }
+
+    #s2 {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    section#s2 h2, p {
+        flex-basis: 90%;
+    }
+
+    section#s2 img#imagem-solitaria {
+        width: 90%;
+        margin-left: 0px;
+        margin-bottom: 14px;
+    }
+
+    section#s2 ul#lista-body {
+        flex-flow: column wrap;
+        align-items: center;
+
+        width: 100%;
+    }
+
+    section#s2 ul#lista-body img {
+        width: 90%;
+    }
+
+    #s3 {
+        height: 100vh;
+    }
+
+    section#s3 #s3-title, section#s3 #s3-p {
+        margin-bottom: 0px;
+        flex-basis: 90%;
+    }
+
+    section#s3 #img-esquerda {
+        margin: 0px;
+    }
+
+    section#s3 #img-esquerda, section#s3 #img-direita {
+        flex-basis: 90%;
+        height: 42%;
+    }
+
+    #s3-h3text1, #s3-h3text2, .s3-text {
+        margin: 5px 10px;
+    }
+
+    #s3-buyp1, #s3-buyp2 {
+        margin: 0px;
+    }
+
+    #s4 {
+        width: 91.2%;
+        padding: 0px;
+        margin: 20px 22px
+    }
+
+    #s4-form input[type=submit] {
+        width: 30%;
+    }
+
+    #s5 {
+        margin-left: 23px
+    }
+
+    footer {
+        width: 96vw;
+        height: 20vh;
+        justify-content: center;
     }
 }
