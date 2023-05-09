@@ -10,8 +10,10 @@
     color: white;
     padding: 10px;
     height: 30vh;
+    width: 95.1%;
     min-height: 250px;
     box-shadow: -5px 5px 10px 5px #00000024;
+    margin-right: 50px;
 }
 
 #s4-p, #s4-h2, #s4-form {

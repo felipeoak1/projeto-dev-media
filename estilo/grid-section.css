@@ -21,6 +21,7 @@
     
     display: flex;
     flex-flow: row wrap;   
+    justify-content: center;
 }
 
 #s3 {
@@ -28,7 +29,7 @@
     
     display: flex;
     flex-flow: row wrap;
-    align-content: start;
+    justify-content: center;
 
     height: 70vh;
     min-height: 600px;
@@ -39,10 +40,12 @@
     
     display: flex;
     flex-flow: column nowrap;
-    
-    width: 95.8%;
+    align-items: end;
+    width: 10%;
 }
 
 #s5 {
     grid-area: section5;  
+
+    margin-left: 27px;
 }
