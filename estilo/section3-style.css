@@ -34,7 +34,7 @@ article#img-direita {
 
 #background-esquerda, #background-direita {
     height: 60%;
-    background: black url("C:\Users\Felipe\Documents\Estudos\projeto-dev-media\imagens\ocean.jpg") no-repeat center center / cover scroll;
+    background: black url("../imagens/ocean.jpg") no-repeat center center / cover scroll;
 }
 
 #background-direita {
